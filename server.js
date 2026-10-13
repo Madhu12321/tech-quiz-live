@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 import http from 'http';
 import cors from 'cors';
 import { Server } from 'socket.io';
-import { questions } from './src/questions.js';
+import { questions } from './questions.js';
 
 const app = express();
 const server = http.createServer(app);
