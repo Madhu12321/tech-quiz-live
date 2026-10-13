@@ -17,7 +17,7 @@ export default function App() {
   const [submitted,setSubmitted] = useState(false);
   const [remaining,setRemaining] = useState(30);
   const [adminRemaining,setAdminRemaining] = useState(30);
-  const studentUrl = `${window.location.origin}/`;
+  const studentUrl = "https://tech-quiz-live-oxas.onrender.com/";
   const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(studentUrl)}`;
   const [error,setError] = useState('');
   const [lastAnswer,setLastAnswer] = useState(null);
